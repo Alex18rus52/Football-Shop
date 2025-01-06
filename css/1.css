@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../font/Raleway.ttf);
+  font-weight: 1000;
+  font-style: bold;
+  font-size: 40px;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/RobotoCondensed-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  background-image: url(../img/fon.jpg);
+  min-height: 50px;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+menu {
+  background-color: white;
+  height: 90px;
+  margin-top: 0;
+  box-shadow: 3px 3px 3px 3px;
+  font-family: "Roboto";
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+}
+
+.menu-text {
+  cursor: pointer;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: auto;
+  color: white;
+  font-family: "Raleway";
+}
+
+.upper {
+  margin-top: 20px;
+  max-width: 1024px;
+}
+
+.sub-header {
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.cat {
+  margin-top: 20px;
+}
+
+.subtext {
+  color: white;
+}
+
+.carousel {
+  max-width: 1024px;
+  max-height: 640px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  color: white;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.item {
+  margin: auto;
+}/*# sourceMappingURL=1.css.map */
